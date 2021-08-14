@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+    <title>library</title>
+</head>
+
+<body>
+    <header class="header">
+        <h1>TRACKER</h1>
+    </header>
+    <main class="main">
+        <ul id="books-grid">
+            <!-- <li>
+                <a>
+                    <h2>DaVinci Code</h2>
+                    <p>Dan Brown</p>
+                    <p>800 pages</p>
+                    <label>read it?</label>
+                </a>
+            </li> -->
+        </ul>
+        <button id="add">ADD BOOK</button>
+        <div class="modal">
+            <div class="modal-content">
+                <!-- <span class="close-button">&times;</span> -->
+                <form class="book-form" id="addBookForm">
+                    <h3 class="form-title">Add new book</h3>
+                    <input id="title" type="text" placeholder="Title" required>
+                    <p class="error-msg" id="errorMsg"></p>
+                    <input id="author" type="text" placeholder="Author" required>
+                    <input id="pages" type="number" placeholder="Pages" required>
+                    <div class="has-read">
+                        <label for="has-read">Read it or nah?</label>
+                        <input type="checkbox" class="checkbox" id="hasRead">
+                    </div>
+                    <button id="submit" type="submit">Submit</button>
+                </form>
+            </div>
+        </div>
+    </main>
+</body>
+
+</html>
