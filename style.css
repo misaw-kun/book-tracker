@@ -224,3 +224,28 @@ input::-webkit-inner-spin-button {
 input[type=number] {
   -moz-appearance: textfield;
 }
+
+#footer {
+    font-family: 'Gloria Hallelujah', cursive;
+    font-size: 1.4em;
+    position: absolute;
+    display: flex;
+    bottom: 0;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 10px;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    color: #3d3d3d;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #ff6b6b;
+}
